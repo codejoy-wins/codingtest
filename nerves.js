@@ -10,7 +10,7 @@ function next(){
     rando++;
     var target = document.getElementById("showcase");
     if(target){
-        target.innerHTML = "<img src= './images/" + rando +  ".png' alt='next image'>";
+        target.innerHTML = "<img src= './images/" + rando +  ".png' alt='next image' class = 'small'>";
 
         if(alreadyseen.includes(rando)){
                 next();

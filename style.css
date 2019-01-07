@@ -22,3 +22,10 @@ font = can't tell
     height: 40px;
     width: 40px;
 }
+#showcase{
+    height: 50%;
+    /* width: 90% */
+}
+.small{
+    width:65%;
+}
